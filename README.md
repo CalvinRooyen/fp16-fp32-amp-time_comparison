@@ -6,9 +6,9 @@ Proyek ini bertujuan untuk membandingkan **kecepatan pelatihan** antara tiga mod
 - **FP32 (Full Precision)**
 - **AMP (Automatic Mixed Precision)**
 
-        FP16      FP32      AMP
-  loss  Nan       Ada        Ada
-  Time  29.78s    44.66s    31.82
+                  FP16      FP32      AMP
+          Loss    Nan       Ada        Ada
+          Time    29.78s    44.66s    31.82
 
   *nilai loss menandakan presisi sebuah mode, apabila nan berarti presisinya sangat rendah jika ada menandakan presisinya bagus
   *time menandakan kecepatan model dalam melatih data
